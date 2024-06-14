@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearMind</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" >
+        <img src="./assets/images/logo.svg" width="10%" height="10%" alt="ClearMind logo">
+      </a>
+
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link">Главная</a></li>
+          <li><a href="#features" class="navbar-link">Особенности</a></li>
+          <li><a href="#reviewes" class="navbar-link">Отзывы</a></li>
+          <li><a href="#contact" class="navbar-link">Цены</a></li>
+          <li><a href="#blog" class="navbar-link">Блог</a></li>
+          <li><a href="#contact" class="navbar-link">О нас</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- home -->
+      <section class="home" id="home">
+        <div class="container">
+
+          <div class="home-content">
+            <h1 class="h1 home-title">Улучшение ментального здоровья🌸</h1>
+
+            <p class="home-text">
+              Мы предлагаем высококачественные услуги по поддержке вашего ментального здоровья. Наша команда профессионалов готова помочь вам в решении любых психологических вопросов. 
+            </p>
+
+            <p class="form-text">
+            Начните заботиться о своем внутреннем равновесии уже сегодня! <span>❤️</span> 
+            </p>
+
+            <form action="https://formspree.io/f/xzbnnjej" method="POST" class="home-form">
+              <input type="email" name="email" required placeholder="Введите свою почту" class="email-field">
+
+              <button type="submit" class="btn btn-primary">Подписаться</button>
+            </form>
+          </div>
+
+          <figure class="home-banner">
+            <img src="./assets/images/home-banner.jpg" alt="home image">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!-- about us -->
+
+      <section class="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-icon">
+              <ion-icon name="cube"></ion-icon>
+            </div>
+
+            <h2 class="h2 about-title">Почему выбрать нас?</h2>
+
+            <p class="about-text">
+              Мы предлагаем качественные услуги, индивидуальный подход к каждому клиенту и профессионализм во всем, что мы делаем. 
+            </p>
+
+            <button class="btn btn-primary"><a href="#contact" class="a-none">Записаться</a></button>
+
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Специализм</h3>
+
+                <p class="card-text">
+                  Наши специалисты имеют обширный опыт работы с различными психологическими проблемами, гарантируя индивидуальный подход к каждому клиенту.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="trending-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Ментальный рост</h3>
+
+                <p class="card-text">
+                  Мы применяем современные подходы к терапии и используем только проверенные методики, чтобы помочь нашим клиентам достичь желаемых результатов.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Помощь</h3>
+
+                <p class="card-text">
+                  Наш центр поддерживает атмосферу доверия и понимания, чтобы каждый чувствовал себя комфортно в процессе работы с нашей командой.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="server"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Конфидециальность</h3>
+
+                <p class="card-text">
+                  Мы придерживаемся полной конфиденциальностью и гарантируем ее. Вы можете полностью доверять нам!
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- features -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title">Потрясающие возможности</h2>
+
+          <p class="section-text">
+            У нас вы найдете не только профессиональную помощь, но и возможность раскрыть свой потенциал, узнать себя лучше и стать лучшей версией себя.
+          </p>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="./assets/images/features-img-1.png" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
+
+                <span>Лучшие возможности</span>
+              </p>
+
+              <h3 class="features-content-title">
+               Создавайте лучшую версию себя, наши специалисты помогут вам!
+              </h3>
+
+              <p class="features-content-text">
+                Temporibus autem quibusdam et aut officiis debitis aut rerum a necessitatibus saepe eveniet ut et
+                voluptates repudiandae
+                sint molestiae non recusandae itaque.
+              </p>
+
+              <ul class="features-list">
+
+                <li class="features-list-item">
+                  <ion-icon name="layers-outline"></ion-icon>
+
+                  <p>Мы обеспечим комфортный путь к становлению лучшей версией себя</p>
+                </li>
+
+                <li class="features-list-item">
+                  <ion-icon name="megaphone-outline"></ion-icon>
+
+                  <p>Мы будем помогать с каждым шагом, не давая вам забывать и пропускать дни</p>
+                </li>
+
+              </ul>
+
+              <div class="btn-group">
+                <button class="btn btn-primary"><a href="#contact" class="a-none">Записаться</a></button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="./assets/images/features-img-2.jpg" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
+
+                <span>Лучшие возможности</span>
+              </p>
+
+              <h3 class="features-content-title">
+                Мы полностью сосредоточены на наших клиентов и на их результатов. Их успех - наш успех, их провал - наш провал.
+              </h3>
+
+              <p class="features-content-text">
+               Вы представляли свою лучшую версию себя? Вы не представляете чего вы можете добиться, если приложите усилия. Мы поможем вам взобраться по ступеням к лучшей версией себя.
+              </p>
+
+              <ul class="features-list">
+
+                <li class="features-list-item">
+                  <ion-icon name="rocket-outline"></ion-icon>
+
+                  <p>Мы создаем индивидуальные программы под каждого клиента, учитывая их уникальные потребности и цели.</p>
+                </li>
+
+                <li class="features-list-item">
+                  <ion-icon name="wifi-outline"></ion-icon>
+
+                  <p> С нами вы можете быть уверены в конфиденциальности и поддержке.</p>
+                </li>
+
+              </ul>
+
+              <div class="btn-group">
+                <button class="btn btn-primary"><a href="#contact" class="a-none">Записаться</a></button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- reviewes -->
+
+      <section class="reviewes" id="reviewes">
+        <div class="container">
+          <h2 class="h2 section-title" style="margin-top: 30px; margin-bottom: 10px;">Отзывы</h2>
+
+          <p class="section-text">
+           Галлерея отзывов наших клиентов. Отзывы клиентов и достигнутые ими успехи за промежуток обучения, их чувства и мнение по этому поводу.
+          </p>
+
+          <div class="card-container">
+            <div class="card">
+                <img src="assets/images/review1.png" alt="">
+                <div class="card-content">
+                  <h3>2,5 месяца обучения с нами</h3>
+                  <p>Андрей добивается значительных успехов! Он смог реализовать себя и найти работу своей мечты.</p>
+                </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/review2.png" alt="">
+              <div class="card-content">
+                <h3>4 месяца обучения с нами</h3>
+                <p>Александра смогла минимизировать стресс в своей тяжелой работой, что стало для нее великим свершением</p>
+              </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/review3.png" alt="">
+            <div class="card-content">
+              <h3>1 месяц обучения с нами</h3>
+              <p>Асель смогла построить крепкие отношения, как дружеские, так и романтические.</p>
+            </div>
+        </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing -->
+
+      <!-- blog -->
+
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Последние статьи</h2>
+
+          <p class="section-text">
+           Будьте в курсе самых важных вещах для становления лучшей версией с помощью нашего блога
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./assets/images/blog-banner-1.png" alt="Best Traveling Place">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2024-04-10">апрель 10 2024</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>Романов А.В</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Домафин</h3>
+
+                <p class="blog-text">
+                  Как дофамин влияет на нас. Как обуздать эту невероятную силу и не пасть жертвой.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Узнать больше</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./assets/images/blog-banner-2.png" alt="Private Meeting Room">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2024-04-10">март 10 2024</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>Валентинов В.А</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Релакс терапия </h3>
+
+                <p class="blog-text">
+                  Перед нами цель: научиться каждый день качественно отдыхать, чтобы не допустить выгорания, накопившейся усталости и просто чувствовать себя хорошо и спокойно.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Узнать больше</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./assets/images/blog-banner-3.png" alt="The Best Business Ideas">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2024-07-10">май 10 2024</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>Васильенко Р.В</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Скука - великая сила.</h3>
+
+                <p class="blog-text">
+                  Как скуку использовать в своих интересах? Правда ли что великие люди скучали и это стало причиной их великих деяний. И много интересных фактов о скуке. 
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Узнать больше</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+<!-- contact -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Связаться</h2>
+
+          <p class="section-text">
+            Вы решили улучшить свое ментальное здоровье и стать лучшей версией себя? Тогда напишите нам и мы с радостью поможем вам! 
+          </p>
+
+          <div class="contact-wrapper">
+
+            <form action="https://formspree.io/f/xqkrrypb" method="POST" class="contact-form">
+
+              <div class="wrapper-flex">
+
+                <div class="input-wrapper">
+                  <label for="name">Имя*</label>
+
+                  <input type="text" name="name" id="name" required placeholder="Введите свое имя" class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="emai">Почта*</label>
+
+                  <input type="text" name="email" id="email" required placeholder="Введите свою почту"
+                    class="input-field">
+                </div>
+
+              </div>
+
+              <label for="message">Сообщение*</label>
+
+              <textarea name="message" id="message" required placeholder="Введите сообщение"
+                class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-primary">
+                <span>Отправить</span>
+
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </button>
+
+            </form>
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="mailto:support@website.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>: support@website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="globe-outline"></ion-icon>
+
+                  <span>: www.website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+79185145534" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>: +7 918 514 55 34</span>
+                </a>
+              </li>
+
+              <li>
+                <div class="contact-link">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <span>: 8:00 - 16:00</span>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>: Ростов-на-Дону, Тургеневская 10, РКСИ</address>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- footer -->
+
+  <footer>
+
+    <div class="footer">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2024 <a href="">Maoirt</a>. All Right Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
